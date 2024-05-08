@@ -6,7 +6,7 @@ everything is based upon info from the following article
 https://learn.microsoft.com/en-us/microsoftteams/new-teams-bulk-install-client
 
 Important!
-The teams MSIX was too big for github (or im a bit of a github noobie) so download the MSIX x64 installer from the link above and place it in the \files\ directory for the installer to work properly (and verify the filename/path in depliy-application.ps1 on row ~211)
+The teams MSIX was too big for github (or im a bit of a github noobie) so download the MSIX x64 installer from the link above and place it in the \files\ directory for the installer to work properly (and verify the filename/path in deploy-application.ps1 on row ~211)
 
 Based on PsApp deployment toolkit and tested for intune deployment
 
