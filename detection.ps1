@@ -1,6 +1,5 @@
 ﻿$NewTeams = $null
 $OldTeams = $null
-$OldTeamsMachineWide = $null
 
 $NewTeams = Get-AppxPackage "MSTEAMS" -AllUsers
 $OldTeams = Get-AppxPackage "Teams*" -AllUsers
